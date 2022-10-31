@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 120px;
+    height: 120px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.nav-items ul{
+    display: flex;
+}
+
+.nav-items ul li{
+    display: flex;
+    margin: 30px 50px;
+    cursor: pointer;
+}
+.nav-items ul li:hover{
+    background-color: rgb(108, 108, 248);
+}
